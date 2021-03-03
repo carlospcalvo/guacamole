@@ -1,5 +1,6 @@
 import React from 'react';
 import { Nav, Navbar, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
+import '../styles/NavBar.css'
 
 const NavBar = () => (
   <Navbar id='navbar' expand="sm" variant="dark">
@@ -33,16 +34,3 @@ const NavBar = () => (
 
 export default NavBar
 
-
-/*
-function App() {
-  return (
-    <>
-      <NavBar />
-      <div id="main">
-        <img id="logo" src={logo} alt="logo"/>
-      </div>
-    </>
-  );
-}
-*/
