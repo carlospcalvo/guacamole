@@ -3,7 +3,7 @@ import { Nav, Navbar, NavDropdown, Form, FormControl, Button } from 'react-boots
 import '../styles/NavBar.css'
 
 const NavBar = () => (
-  <Navbar id='navbar' expand="sm" variant="dark">
+  <Navbar id='navbar' expand="xl" variant="dark">
     <Nav.Link id="inicio" href="/home">Inicio</Nav.Link>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
@@ -24,7 +24,7 @@ const NavBar = () => (
         <Nav.Link href="/quienes-somos">Quiénes somos</Nav.Link>
         <Nav.Link href="/contacto">Contacto</Nav.Link>
       </Nav>
-      <Form inline>
+      <Form id='navbar-search' inline>
         <FormControl type="text" size="sm" placeholder="Buscar..." className="mr-sm-2" />
         <Button size="sm" variant="light">Buscar</Button>
       </Form>

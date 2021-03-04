@@ -1,10 +1,33 @@
-#navbar{
-    background-color: #c0392b;
+#navbar, #inicio { 
+    background-color: #c0392b; 
+    color:rgb(255, 255, 255);
+    vertical-align: middle;
+}
+  
+#main{
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+
 }
 
+#basic-navbar-nav {
+    vertical-align: middle;
+    align-items: center;
+}
 
+#navbar-search{
+    flex-wrap: nowrap;
+}
 
-a{
-    color: white;
+a, .navbar-nav, .navbar-light .nav-link {
+    color:rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-transform: uppercase;
+    font-size: small;
     text-decoration: none;
-}
+    justify-content: space-evenly;
+  }
+
